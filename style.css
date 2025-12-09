@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212; /* Koyu arka plan */
+    color: #e0e0e0; /* Açık metin rengi */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    padding: 40px;
+    background-color: #1e1e1e; /* Koyu kart arka planı */
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    color: #4CAF50; /* Marka rengi */
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    margin-bottom: 30px;
+    font-style: italic;
+    color: #a0a0a0;
+}
+
+.input-area {
+    display: flex;
+    margin-bottom: 30px;
+    gap: 10px;
+}
+
+#user-question {
+    flex-grow: 1;
+    padding: 12px;
+    border: 2px solid #333;
+    border-radius: 8px;
+    background-color: #2c2c2c;
+    color: #e0e0e0;
+    font-size: 1em;
+}
+
+#user-question::placeholder {
+    color: #777;
+}
+
+#ask-button {
+    padding: 12px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.3s;
+}
+
+#ask-button:hover {
+    background-color: #45a049;
+}
+
+.response-area {
+    min-height: 50px;
+    padding: 20px;
+    background-color: #2c2c2c;
+    border-radius: 8px;
+    text-align: left;
+}
+
+#ai-response {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #FFC107; /* Yanıt için dikkat çekici renk */
+}
+
+.warning {
+    margin-top: 20px;
+    font-size: 0.8em;
+    color: #555;
+}
